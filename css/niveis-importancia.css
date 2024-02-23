@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+
+
+.teste h2.title{ /* tem o maior nivel de importancia */
+    color: violet;
+}
+
+/*
+
+.teste > .teste2 > h2.title{ // pega especificamente um elemento dentro da div 
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.teste h2{
+    color: green;
+
+h2.title{ 
+    color: green;
+}
+*/
+

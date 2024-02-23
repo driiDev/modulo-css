@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+.container{
+    margin-left: 20px;
+}
+
+.d1{
+    width: 50%;
+    padding: 20px; /* espaçamento interno */
+    margin: 20px; /*espaçamento externo */
+    display: inline-block;
+    background-color: rgb(123, 57, 173);
+}
+.d2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(197, 49, 49);
+}
+.d3{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(37, 218, 215);
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes anim1{ /* criar animacao 
+
+    0%{background-color: red;}
+    50% {background-color: green;}
+    100%{background-color: blue;}
+    
+    */
+    from{background-color: green; width: 400px;}
+    to{background-color: red;width: 2px;} 
+
+}
+
+.teste{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both; /* vai terminar do jeito que foi programado*/ 
+    animation-iteration-count: 2; /* quantas vezes vai aparecer a animacao*/
+    animation-direction: alternate; /* direcao */
+}
